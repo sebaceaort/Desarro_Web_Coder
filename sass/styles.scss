@@ -1,39 +1,5 @@
 @import './general';
-
-.logo{
-    margin: 15px auto;
-    width: 70%;   
-}
-
-ul li{    
-    list-style: none;
-    width: 100%;
-    padding: 10px 0;
-    display: flex;
-    transition-property: all;
-    transition-duration: 1s;
-    
-    }
-
-ul li:hover{
-    transform: scale(1.3);
-}
-a{
-    font-size: large;
-    text-align: center;
-    width:100%;
-    text-decoration: none;
-    color: aliceblue;
-    font-family: 'Paytone One', sans-serif;
-}
-
-header{
-    background-color: red;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+@import './nav';
 
 footer{
     margin-top: auto;

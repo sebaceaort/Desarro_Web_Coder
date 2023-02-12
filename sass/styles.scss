@@ -46,6 +46,9 @@ hr{
     align-items: center;
     justify-content: space-around;
 }
+.h2-index{
+    font-family: 'Paytone One', sans-serif;
+}
 
 form{
     width: 70%;
@@ -94,6 +97,7 @@ input, textarea{
 
 .card-title{
     margin-top: 15px;
+    font-family: 'Paytone One', sans-serif;
 }
 .card-body{
     display: flex;
@@ -101,12 +105,17 @@ input, textarea{
     align-items: center;
     justify-content: center;
 }
+.card .tienda{
+    height: 100px;
+    overflow-y: hidden;
+}
 .card p{
     width: 90%;
     height: 200px;
     overflow-y: scroll;
 
 }
+
 .contacto{
     display: flex;
     margin: 3em 0.5em;
@@ -188,6 +197,7 @@ input, textarea{
     
     .h2-index{
         grid-area: h2-index;
+        font-family: 'Paytone One', sans-serif;
     }
 
     .art-index{
